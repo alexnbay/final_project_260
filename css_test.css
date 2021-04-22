@@ -1,0 +1,41 @@
+.menu {
+  display: flex;
+  justify-content: center; /*space-between*/
+  padding: 20px;
+  color: #31574e;
+}
+
+.stream{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu h2 {
+  font-size: 14px;
+}
+
+.post_ind {
+  border-radius: 10px;
+  width: 600px;
+  background-color: #dcf2ed;
+  color: #31574e;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+}
+
+.post_title {
+  width: 100%;
+}
+
+.post_name{
+  width: 100%;
+}
+
+a {
+  color: #31574e;
+}

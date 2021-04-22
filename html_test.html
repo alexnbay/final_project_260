@@ -1,0 +1,18 @@
+<template>
+<div class="main">
+  <div class="menu">
+    <h2>{{user.firstName}} {{user.lastName}} <a @click="logout">Logout</a></h2>
+  </div>
+  <div class="title"><h2>Post Stream</h2></div>
+  <div class="stream">
+    <div v-for="post in posts" :key="post._id">
+      <div class="post_ind">
+        <div class="post_title"><h4>{{post.title}}</h4></div>
+
+        <div class="post_time"><p><em>{{post.time}}</em></p></div>
+        <div class="post_contents"><p>{{post.contents}}</p></div>
+      </div>
+    </div>
+  </div>
+</div>
+</template>
