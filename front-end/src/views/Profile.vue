@@ -565,20 +565,29 @@ export default {
 
 
 .posts_meta{
-  width: 600px;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.new_post_title, .edit_post_box, .posts_title,
-.delete_post_box, .buttons_box, .find_box, .found_box,
+.posts_title, .buttons_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  text-align: center;
+}
+
+.new_post_title, .edit_post_box,
+.delete_post_box, .find_box, .found_box,
 .new_post_title_box, .new_post_box, .found_box_title{
   width: 600px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 10px
+  margin: 10px;
 }
 
 .new_post_box textarea {

@@ -125,6 +125,10 @@ export default {
   width: 100%;
 }
 
+.post_time {
+  width: 100%;
+}
+
 .post_name{
   width: 100%;
 }
